@@ -15,7 +15,8 @@ _1nk=$(echo '/3×u3#s×87r/83×l2×4×i0b×' | sed -e 's/[^a-z/]//ig')
 
 cd $HOME
 
-enum fun_bar () {
+# Função de barra de progresso
+fun_bar () {
   comando[0]="$1"
   comando[1]="$2"
   (
